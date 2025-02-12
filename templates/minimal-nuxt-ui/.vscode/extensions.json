@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "dbaeumer.vscode-eslint",
+    "vue.volar",
+    "Nuxt.mdc",
+    "bradlc.vscode-tailwindcss",
+    "antfu.iconify",
+    "antfu.goto-alias",
+    "antfu.pnpm-catalog-lens",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens"
+  ]
+}

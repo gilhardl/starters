@@ -1,0 +1,38 @@
+{
+  "name": "todos-nuxt-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@iconify-json/heroicons": "catalog:",
+    "@iconify-json/simple-icons": "catalog:",
+    "@nuxt/ui": "catalog:",
+    "@nuxthub/core": "catalog:",
+    "@pinia/colada-nuxt": "catalog:",
+    "@pinia/nuxt": "catalog:",
+    "@vite-pwa/nuxt": "catalog:",
+    "@vueuse/nuxt": "catalog:",
+    "drizzle-orm": "catalog:",
+    "h3-zod": "catalog:",
+    "nuxt": "catalog:",
+    "nuxt-auth-utils": "catalog:"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "catalog:",
+    "better-sqlite3": "catalog:",
+    "drizzle-kit": "catalog:",
+    "vue-tsc": "catalog:",
+    "wrangler": "catalog:"
+  },
+  "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b"
+}

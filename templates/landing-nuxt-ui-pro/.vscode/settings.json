@@ -1,0 +1,13 @@
+{
+  "tailwindCSS.experimental.configFile": "./app/assets/styles/main.css",
+  "tailwindCSS.classAttributes": [
+    "active-class",
+    "inactive-class"
+  ],
+  "files.associations": {
+    "**/*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "minimal-nuxt-ui-pro",
+  "description": "Minimal Nuxt UI Pro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@iconify-json/heroicons": "catalog:",
+    "@nuxt/ui-pro": "catalog:",
+    "@nuxthub/core": "catalog:",
+    "@vite-pwa/nuxt": "catalog:",
+    "@vueuse/nuxt": "catalog:",
+    "nuxt": "catalog:"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "catalog:",
+    "vue-tsc": "catalog:",
+    "wrangler": "catalog:"
+  },
+  "packageManager": "pnpm@10.0.0"
+}
