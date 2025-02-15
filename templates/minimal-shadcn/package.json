@@ -1,0 +1,43 @@
+{
+  "name": "minimal-nuxt-ui",
+  "description": "Minimal Nuxt UI",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@iconify-json/heroicons": "catalog:",
+    "@nuxt/icon": "catalog:",
+    "@nuxthub/core": "catalog:",
+    "@nuxtjs/color-mode": "catalog:",
+    "@unocss/reset": "catalog:",
+    "@vite-pwa/nuxt": "catalog:",
+    "@vueuse/nuxt": "catalog:",
+    "class-variance-authority": "catalog:",
+    "clsx": "catalog:",
+    "lucide-vue-next": "catalog:",
+    "nuxt": "catalog:",
+    "radix-vue": "catalog:",
+    "shadcn-nuxt": "catalog:",
+    "tailwind-merge": "catalog:"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "catalog:",
+    "@unocss/nuxt": "catalog:",
+    "shadcn-vue": "catalog:",
+    "unocss": "catalog:",
+    "unocss-preset-animations": "catalog:",
+    "unocss-preset-shadcn": "catalog:",
+    "vue-tsc": "catalog:",
+    "wrangler": "catalog:"
+  },
+  "packageManager": "pnpm@10.0.0"
+}

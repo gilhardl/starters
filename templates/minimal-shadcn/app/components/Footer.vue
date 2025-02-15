@@ -1,0 +1,23 @@
+<template>
+  <div
+    flex
+    justify-between
+    items-center
+    px-8
+    pb-8
+    pt-4
+  >
+    <span text-sm>© {{ new Date().getFullYear() }} Lucas GILHARD - MIT License</span>
+    <span>
+      <a
+        href="https://github.com/gilhardl"
+        target="_blank"
+      >
+        <Icon
+          name="mdi:github"
+          size="1.4rem"
+        />
+      </a>
+    </span>
+  </div>
+</template>
