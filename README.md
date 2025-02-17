@@ -5,7 +5,13 @@ This repository contains starter templates for Javascript projects.
 ## Usage
 
 ```bash
-npx giget gh:gilhardl/starters/<template-name>
+npx giget gh:gilhardl/starters/templates/<template-name> <destination-folder>
+
+cd <destination-folder>
+
+pnpm install
+
+pnpm dev
 ```
 
 ## Starters
