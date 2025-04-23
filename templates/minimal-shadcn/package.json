@@ -14,7 +14,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@iconify-json/heroicons": "catalog:",
     "@nuxt/icon": "catalog:",
     "@nuxthub/core": "catalog:",
     "@nuxtjs/color-mode": "catalog:",
@@ -30,6 +29,7 @@
     "tailwind-merge": "catalog:"
   },
   "devDependencies": {
+    "@iconify-json/heroicons": "catalog:",
     "@nuxt/eslint": "catalog:",
     "@unocss/nuxt": "catalog:",
     "shadcn-vue": "catalog:",
