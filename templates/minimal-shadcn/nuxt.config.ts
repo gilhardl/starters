@@ -1,4 +1,4 @@
-import { pwaConfig } from './app/config/pwa'
+import { pwaConfig } from './app/pwa.config'
 import { appDescription } from './app/constants'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config

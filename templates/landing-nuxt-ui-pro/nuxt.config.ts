@@ -1,4 +1,4 @@
-import { pwaConfig } from "./app/config/pwa";
+import { pwaConfig } from "./app/pwa.config";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
