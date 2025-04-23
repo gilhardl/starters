@@ -1,17 +1,20 @@
 {
   "name": "todos-nuxt-ui",
+  "description": "A todo list Nuxt app build with Nuxt UI and Nuxt Hub featuring serverless rendering, authentication and queyring a database",
   "private": true,
   "type": "module",
   "scripts": {
+    "postinstall": "nuxt prepare",
+    "cleanup:node": "rm -Rf node_modules",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck",
+    "cleanup": "nuxt cleanup",
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "db:generate": "drizzle-kit generate"
+    "generate": "nuxt generate",
+    "generate:db": "drizzle-kit generate"
   },
   "dependencies": {
     "@iconify-json/heroicons": "catalog:",

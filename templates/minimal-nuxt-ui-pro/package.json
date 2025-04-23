@@ -1,17 +1,19 @@
 {
   "name": "minimal-nuxt-ui-pro",
-  "description": "Minimal Nuxt UI Pro",
+  "description": "A minimal Nuxt app built with Nuxt UI Pro, Vueuse and Nuxt Hub",
   "private": true,
   "type": "module",
   "scripts": {
+    "postinstall": "nuxt prepare",
+    "cleanup:node": "rm -Rf node_modules",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "nuxt typecheck",
+    "cleanup": "nuxt cleanup",
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxt/ui-pro": "catalog:",
