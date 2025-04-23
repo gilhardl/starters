@@ -1,5 +1,5 @@
 import { pwaConfig } from './app/pwa.config'
-import { appDescription } from './app/constants'
+import { appDescription, appName } from './app/utils/constants'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Minimal',
+      title: appName,
       htmlAttrs: { lang: 'en' },
       viewport: 'width=device-width, initial-scale=1',
       link: [

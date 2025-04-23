@@ -1,3 +1,4 @@
+import { appDescription, appName } from "~/utils/constants";
 import { pwaConfig } from "./app/pwa.config";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
@@ -26,7 +27,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Todos',
+      title: appName,
       htmlAttrs: { lang: 'en' },
       viewport: 'width=device-width, initial-scale=1',
       link: [
@@ -35,7 +36,7 @@ export default defineNuxtConfig({
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }
       ],
       meta: [
-        { name: 'description', content: 'A todo app build with Nuxt UI and Nuxt Hub featuring serverless rendering, authentication and queyring a database.' },
+        { name: 'description', content: appDescription },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         { name: 'og:image', content: '/social.png' },
         { name: 'twitter:image', content: '/social.png' },
