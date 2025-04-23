@@ -1,6 +1,6 @@
 # Landing page Nuxt starter with Nuxt UI Pro
 
-Opinionated landing page Nuxt starter template.
+Opinionated landing page Nuxt application starter template.
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 

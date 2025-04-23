@@ -1,6 +1,6 @@
 # Todo list Nuxt starter with Nuxt UI
 
-Opinionated todo list Nuxt starter template.
+Opinionated todo list Nuxt application starter template.
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
