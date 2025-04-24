@@ -14,6 +14,7 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 - 🔍 [SEO](https://nuxt.com/docs/getting-started/seo-meta) - Basic meta tags
 - 📲 [PWA](https://vite-pwa-org.netlify.app) - Offline support and auto-update behavior
 - 🚀 [Nuxt Hub](https://hub.nuxt.com) - SQLite database and zero-config deployment to the edge
+- 🔐 [Nuxt Auth Utils](https://github.com/atinux/nuxt-auth-utils) - OAuth (Github) authentication
 - 🛠️ [ESLint](https://eslint.nuxt.com) - Linting and code formatting
 - 🧰 [TypeScript](https://www.typescriptlang.org) - Type syntax built on JavaScript
 - 🧩 [Pnpm](https://pnpm.io) - Fast, disk space efficient package manager
