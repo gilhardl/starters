@@ -1,6 +1,6 @@
 {
   "name": "todos-nuxt-ui",
-  "description": "A todo list Nuxt app build with Nuxt UI and Nuxt Hub featuring serverless rendering, authentication and queyring a database",
+  "description": "A todo list Nuxt app build with Nuxt UI, Nuxt Auth Utils, Vueuse and Nuxt Hub",
   "private": true,
   "type": "module",
   "scripts": {
