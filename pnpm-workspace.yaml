@@ -1,5 +1,5 @@
 packages:
-  - 'templates/*'
+  - "templates/*"
 
 catalog:
   # Prod dependencies
@@ -11,8 +11,10 @@ catalog:
   "@nuxthq/studio": "^2.2.1"
   "@nuxthub/core": "^0.8.15"
   "@nuxtjs/color-mode": "^3.5.2"
+  "@nuxtjs/supabase": "^1.4.6"
   "@pinia/colada-nuxt": "^0.0.4"
   "@pinia/nuxt": "^0.9.0"
+  "@supabase/supabase-js": "^2.49.1"
   "@unocss/reset": "^65.4.3"
   "@vite-pwa/nuxt": "^0.10.6"
   "@vueuse/nuxt": "^12.5.0"

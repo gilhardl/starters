@@ -1,0 +1,1 @@
+-- TODO : Declare public database schema here (see https://supabase.com/docs/guides/local-development/declarative-database-schemas)

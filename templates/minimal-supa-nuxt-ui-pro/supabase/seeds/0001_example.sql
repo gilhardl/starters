@@ -1,0 +1,1 @@
+-- TODO : Define your database seeds here (see https://supabase.com/docs/guides/local-development/seeding-your-database)

@@ -1,0 +1,42 @@
+{
+  "name": "minimal-supa-nuxt-ui-pro",
+  "description": "A minimal Nuxt app built with Nuxt UI Pro, Vueuse and Nuxt Hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "cleanup:node": "rm -Rf node_modules",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck",
+    "cleanup": "nuxt cleanup",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "generate": "nuxt generate",
+    "start": "supabase start",
+    "stop": "supabase stop",
+    "restart": "pnpm run supa:stop && pnpm run supa:start",
+    "reset": "supabase db reset",
+    "dump": "supabase db dump --data-only -s public --local -f",
+    "restore": "psql -h localhost -p 54322 -U postgres -d postgres -f",
+    "generate:migration": "supabase db diff --schema public --local -f",
+    "generate:types": "supabase gen types --schema public --local > server/utils/database.types.ts"
+  },
+  "dependencies": {
+    "@nuxt/ui-pro": "catalog:",
+    "@nuxtjs/supabase": "catalog:",
+    "@nuxthub/core": "catalog:",
+    "@supabase/supabase-js": "catalog:",
+    "@vite-pwa/nuxt": "catalog:",
+    "@vueuse/nuxt": "catalog:",
+    "nuxt": "catalog:"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "catalog:",
+    "@nuxt/eslint": "catalog:",
+    "vue-tsc": "catalog:",
+    "wrangler": "catalog:"
+  },
+  "packageManager": "pnpm@10.0.0"
+}

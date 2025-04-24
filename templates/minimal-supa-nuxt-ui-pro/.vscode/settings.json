@@ -1,0 +1,41 @@
+{
+  "tailwindCSS.experimental.configFile": "./app/assets/styles/main.css",
+  "tailwindCSS.classAttributes": [
+    "active-class",
+    "inactive-class"
+  ],
+  "files.associations": {
+    "**/*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue",
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+    },
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit",
+    },
+  },
+  "vue.updateImportsOnFileMove.enabled": true,
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+  },
+}
