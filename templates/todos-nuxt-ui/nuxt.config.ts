@@ -1,5 +1,5 @@
-import { appDescription, appName } from "~/utils/constants";
 import { pwaConfig } from "./app/pwa.config";
+import { appDescription, appName } from "./app/utils/constants";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
